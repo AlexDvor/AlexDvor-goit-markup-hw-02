@@ -42,3 +42,45 @@
   background-color: var(--background-hero);
   color: var(--white-text);
 }
+
+.hero-btn {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
+
+/* Section about us */
+
+.description-list h3 {
+  color: var(--black-text);
+}
+
+.description-list p {
+  color: var(--gris-text);
+}
+
+/* OUR TEAM */
+
+.title-our-team h3 {
+  color: var(--black-text);
+}
+
+.title-our-team p {
+  color: var(--gris-text);
+}
+
+/* FOOTER */
+.logo-white {
+  color: var(--white-text);
+}
+
+.box-footer {
+  background-color: var(--background-hero);
+}
+
+.address {
+  color: var(--white-text);
+}
+
+.footer-address-link {
+  color: var(--white-text);
+}
