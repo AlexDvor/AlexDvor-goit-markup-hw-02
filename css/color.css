@@ -1,0 +1,44 @@
+:root {
+  --blue-text: #2196f3;
+  --white-text: #ffffff;
+  --black-text: #212121;
+  --gris-text: #757575;
+  --gris-op60: #ffffff60;
+  --black100: #000000;
+  --background-hero: #2f303a;
+}
+
+/* HEADER */
+
+.logo-blue {
+  color: var(--blue-text);
+}
+
+.logo-black {
+  color: var(--black100);
+}
+
+.header-list a {
+  color: var(--black-text);
+}
+
+.header-list a:hover,
+.header-list a:focus {
+  color: var(--blue-text);
+}
+
+.aut-list a {
+  color: var(--black-text);
+}
+
+.aut-list a:hover,
+.aut-list a:focus {
+  color: var(--blue-text);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--background-hero);
+  color: var(--white-text);
+}
