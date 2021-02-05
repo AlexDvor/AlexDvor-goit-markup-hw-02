@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo {
   font-family: 'Roboto', sans-serif;
   font-size: 26px;
@@ -10,8 +14,67 @@ body {
   text-decoration: none;
 }
 
-.header-list {
+.header-list a {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
+}
+
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.description-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.description-list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.title-work-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.title-our-team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.title-our-team p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
