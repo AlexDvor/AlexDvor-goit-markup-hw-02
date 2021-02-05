@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
