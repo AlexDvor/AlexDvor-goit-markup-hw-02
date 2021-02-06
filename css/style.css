@@ -1,3 +1,13 @@
+:root {
+  --blue-text: #2196f3;
+  --white-text: #ffffff;
+  --black-text: #212121;
+  --gris-text: #757575;
+  --gris-op60: #ffffff60;
+  --black100: #000000;
+  --background-hero: #2f303a;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -19,35 +29,59 @@ a {
   line-height: 1.19;
 }
 
-.header-list a {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+.logo-blue {
+  color: var(--blue-text);
 }
 
-.aut-list a {
+.logo-black {
+  color: var(--black100);
+}
+
+.header-nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  color: var(--black-text);
+}
+
+.header-nav:hover,
+.header-nav:focus {
+  color: var(--blue-text);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black-text);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--blue-text);
 }
 
 /* HERO */
 
-.hero {
+.title-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  background-color: var(--background-hero);
+  color: var(--white-text);
 }
 
-.hero-btn {
+.btn-hero {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   border: none;
   letter-spacing: 0.06em;
+  background-color: var(--blue-text);
+  color: var(--white-text);
 }
 
 /* SECTION ABOUT OUR WORK */
