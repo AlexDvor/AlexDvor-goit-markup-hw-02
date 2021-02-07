@@ -6,6 +6,7 @@
   --gris-op60: #ffffff60;
   --black100: #000000;
   --background-hero: #2f303a;
+  --background-btn-portfolio: #f5f4fa;
 }
 
 body {
@@ -75,6 +76,7 @@ a {
 }
 
 .btn-hero {
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -166,4 +168,37 @@ a {
   line-height: 1.71;
   font-style: normal;
   color: var(--white-text);
+}
+
+/* PORTFOLIO PAGE*/
+
+.btn-portfolio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  border: none;
+  background-color: var(--background-btn-portfolio);
+  color: var(--black-text);
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
+
+.title-project {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text);
+}
+
+.title-apps {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--gris-text);
 }
