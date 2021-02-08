@@ -47,7 +47,9 @@ a {
 }
 
 .header-nav:hover,
-.header-nav:focus {
+.header-nav:focus,
+.header-link:hover,
+.header-link:focus {
   color: var(--blue-text);
 }
 
@@ -56,11 +58,6 @@ a {
   font-size: 14px;
   line-height: 1.14;
   color: var(--gris-text);
-}
-
-.header-link:hover,
-.header-link:focus {
-  color: var(--blue-text);
 }
 
 /* HERO */
