@@ -163,6 +163,11 @@ a {
   color: var(--gris-op60);
 }
 
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--blue-text);
+}
+
 .address {
   font-weight: 400;
   font-size: 14px;
