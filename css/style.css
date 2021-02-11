@@ -2,7 +2,7 @@
   --blue-text: #2196f3;
   --white-text: #ffffff;
   --primary-color-text: #212121;
-  --gris-text: #757575;
+  --secondary-color-text: #757575;
   --gris-op60: #ffffff60;
   --black100: #000000;
   --background-hero: #2f303a;
@@ -57,7 +57,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--gris-text);
+  color: var(--secondary-color-text);
 }
 
 /* HERO */
@@ -112,7 +112,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--gris-text);
+  color: var(--secondary-color-text);
 }
 
 /* ABOUT WORK TEAM */
@@ -139,7 +139,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: var(--gris-text);
+  color: var(--secondary-color-text);
 }
 
 /* FOOTER */
@@ -203,5 +203,5 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--gris-text);
+  color: var(--secondary-color-text);
 }
