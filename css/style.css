@@ -1,6 +1,6 @@
 :root {
   --blue-text: #2196f3;
-  --white-text: #ffffff;
+  --tertiary-color-text: #ffffff;
   --primary-color-text: #212121;
   --secondary-color-text: #757575;
   --gris-op60: #ffffff60;
@@ -70,7 +70,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.06em;
   background-color: var(--background-hero);
-  color: var(--white-text);
+  color: var(--tertiary-color-text);
 }
 
 .btn-hero {
@@ -81,7 +81,7 @@ a {
   border: none;
   letter-spacing: 0.06em;
   background-color: var(--blue-text);
-  color: var(--white-text);
+  color: var(--tertiary-color-text);
 }
 
 /* SECTION ABOUT OUR WORK */
@@ -145,7 +145,7 @@ a {
 /* FOOTER */
 
 .logo-white {
-  color: var(--white-text);
+  color: var(--tertiary-color-text);
 }
 
 .box-footer {
@@ -170,7 +170,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
-  color: var(--white-text);
+  color: var(--tertiary-color-text);
 }
 
 /* PORTFOLIO PAGE*/
@@ -189,7 +189,7 @@ a {
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   background-color: var(--blue-text);
-  color: var(--white-text);
+  color: var(--tertiary-color-text);
 }
 
 .title-project {
