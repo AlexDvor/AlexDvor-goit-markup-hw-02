@@ -1,7 +1,7 @@
 :root {
   --blue-text: #2196f3;
   --white-text: #ffffff;
-  --black-text: #212121;
+  --primary-color-text: #212121;
   --gris-text: #757575;
   --gris-op60: #ffffff60;
   --black100: #000000;
@@ -43,7 +43,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 .header-nav:hover,
@@ -105,7 +105,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 .description-list p {
@@ -123,7 +123,7 @@ a {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 /* ABOUT OUR TEAM */
@@ -132,7 +132,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 .title-our-team p {
@@ -183,7 +183,7 @@ a {
   letter-spacing: 0.03em;
   border: none;
   background-color: var(--background-btn-portfolio);
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 .btn-portfolio:hover,
@@ -196,7 +196,7 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--black-text);
+  color: var(--primary-color-text);
 }
 
 .title-apps {
